@@ -54,4 +54,6 @@ Be careful with this step!! Unplug the Pico whilst you are making connections.
     - ZipStick 5VDC to Pico 3v3
     - ZipStick DIN to GP22
 
+[Find a reference for the Raspberry Pi Pico here](https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf)
+
 You are now ready to test out some of the examples shared in this repository, simply open them and copy and paste the code into Thonny. Press the RUN button to see what they do.
