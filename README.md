@@ -33,4 +33,23 @@ Thonny is a free text editor with lots of helpful features for creating Python p
 4. You may need to do this step, at the top of the Thonny window, click the "Run" menu and select Stop/Restart backend
 5. If you can see >>> in the Shell window at the bottom of the screen, you are good to go!
 
-### 4. Neopixel connections
+### 4. NeoPixel Module Setup
+
+NeoPixels are addressable LEDs - this means that you can connect lots of them together in a chain and a tiny brain on each "pixel" allows you to individually address them. Each pixel can be set with an RGB colour and brightness. 
+
+1. [Download the Adafruit CircuitPython Library bundle here](https://circuitpython.org/libraries) Download the version corresponding to your installation of CircuitPython
+2. Unzip the downloaded folder and save it somewhere sensible on your computer. Unzipping took a little time on my computer.
+3. Locate the file called neopixel.mpy in the bundle folder - it will be near the bottom! Copy it to the *lib* folder on the Pico drive (CIRCUITPY)
+
+### 5. Hardware Setup
+
+Be careful with this step!! Unplug the Pico whilst you are making connections.
+
+1. Look at the NeoPixel PCB (ZipStick), flip it on its back and you will see the connections at the end are labelled GND, DIN and 5VDC.
+2. Look underneath the Pico to see how the pins are labelled, note 3v3, GND and GP22 as we will use these.
+2. Carefully plug the Pico into the breadboard so that the Micro USB is easily accessible at one end
+3. Plug the ZipStick into the breadboard across some empty columns
+4. Use the jumper wires to connect:
+  - ZipStick GND to Pico GND
+  - ZipStick 5VDC to Pico 3v3
+  - ZipStick DIN to GP22
