@@ -15,12 +15,11 @@ pixels.brightness = 0.2
 while True:
     # randint generates a random number in a set range:
     R = randint(0,255)
-    G = randint(0,255)
-    B = randint(0,255)
-    x = R = randint(0,4)
+    G = randint(0,127)
+    x = randint(0,4)
     
     # Note how variables are used below:
-    pixels[x] = (R, G, B)
+    pixels[x] = (R, G, 0)
     pixels.show()
     
-    sleep(0.05)
+    sleep(0.03)
