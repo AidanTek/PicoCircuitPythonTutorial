@@ -50,6 +50,8 @@ Be careful with this step!! Unplug the Pico whilst you are making connections.
 2. Carefully plug the Pico into the breadboard so that the Micro USB is easily accessible at one end
 3. Plug the ZipStick into the breadboard across some empty columns
 4. Use the jumper wires to connect:
-  - ZipStick GND to Pico GND
-  - ZipStick 5VDC to Pico 3v3
-  - ZipStick DIN to GP22
+    - ZipStick GND to Pico GND
+    - ZipStick 5VDC to Pico 3v3
+    - ZipStick DIN to GP22
+
+You are now ready to test out some of the examples shared in this repository, simply open them and copy and paste the code into Thonny. Press the RUN button to see what they do.
