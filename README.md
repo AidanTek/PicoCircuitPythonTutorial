@@ -5,7 +5,7 @@ This repository contains supporting material for an introductory class in Circui
 ### 1. Getting Started
 
 You need the following electronic components for this tutorial:
-- Raspberry Pi Pico (Pico W is ok as well)
+- Raspberry Pi Pico
 - USB Micro lead to program the Pico
 - Half size breadboard
 - Neopixels (5 is a good number)
